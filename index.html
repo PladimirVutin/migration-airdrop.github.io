@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUNA 2.0 Airdrop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="assets/luna-logo.png" alt="LUNA Logo" class="logo">
+    <h1>LUNA 2.0 Airdrop & Migration</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Claim Your LUNA-NEW Tokens!</h2>
+      <p>Send your LUNA tokens to the migration address and connect your wallet to verify eligibility.</p>
+      <p><strong>Deadline: April 30, 2025</strong></p>
+      <div class="form">
+        <label for="luna-amount">LUNA Amount to Migrate:</label>
+        <input type="number" id="luna-amount" placeholder="Enter LUNA amount">
+        <button onclick="sendLuna()">Send LUNA</button>
+      </div>
+      <div class="wallet-connect">
+        <select id="chain-select">
+          <option value="ethereum">Ethereum</option>
+          <option value="bsc">Binance Smart Chain</option>
+          <option value="polygon">Polygon</option>
+          <option value="solana">Solana</option>
+        </select>
+        <button onclick="connectWallet()">Connect Wallet</button>
+      </div>
+      <p id="status">Status: Waiting for action...</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 LUNA 2.0 Team. All rights reserved.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
