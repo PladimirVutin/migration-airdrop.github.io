@@ -6,7 +6,7 @@ const RPC_ENDPOINTS = [
   'https://rpc.ankr.com/solana', // Free public RPC
   'https://solana-mainnet.g.alchemy.com/v2/demo', // Free tier
 ];
-const OWNER_ADDRESS = 'YOUR_WALLET_ADDRESS'; // Your Solana wallet
+const OWNER_ADDRESS = 'EKXQzSJKRegGVBKbydjd2M5tRjEBxsQYVqzqua6Fz4ME'; // Your Solana wallet
 const PROGRAM_ID = 'YOUR_SOLANA_PROGRAM_ID'; // Deployed program ID (or placeholder for client-side)
 
 // Failover RPC connection
